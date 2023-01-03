@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "atividade-quatro",
-    "slug": "atividade-quatro",
+    "slug": "teste",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quesaconaovai.teste"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.quesaconaovai.teste"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8ba9aa21-d7d1-4e2e-b2e1-62c4b2fec2a5"
+      }
+    },
+    "owner": "quesaconaovai"
   }
 }
